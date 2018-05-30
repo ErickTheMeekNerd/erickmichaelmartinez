@@ -67,6 +67,10 @@ a {
   color: #093a58;
 }
 
+.feat-img {
+  width: 100%;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
@@ -105,6 +109,8 @@ a {
 
   .feat-img {
     width: 300px;
+    float: left;
+    margin-bottom: 55px;
   }
-  
+
 }
