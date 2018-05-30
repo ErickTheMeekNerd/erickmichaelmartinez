@@ -117,6 +117,7 @@ a {
 
   .main-nav li {
     float: left;
+    margin: 0 0 0 12px;
   }
 
   .feat-img {
@@ -125,6 +126,12 @@ a {
     margin: 5px 25px 25px 25px;
     padding: 10px;
     border: solid 1px lightgrey;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
 }
