@@ -32,6 +32,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* =================================
   Base Layout Styles
 ==================================== */
@@ -39,22 +43,19 @@ a {
 /* ---- Navigation ---- */
 
 .name {
-  font-size: 1.25em
+  font-size: 1.25em;
+  margin: 0;
 }
 
-.name,
-.main-nav li {
-  text-align: center;
-  background: #fff;
-  margin-top: 6px;
-  margin-bottom: 6px;
+.main-nav {
+  margin-top: 5px;
 }
 
 .name a,
 .main-nav a {
-  padding: 10px 15px;
   text-align: center;
   display: block;
+  padding: 10px 15px;
 }
 
 .main-nav a {
@@ -67,28 +68,38 @@ a {
   color: #093a58;
 }
 
-.feat-img {
-  width: 100%;
-}
-
 /* ---- Layout Containers ---- */
 
-.container {
-  padding-left: 1em;
-  padding-right: 1em;
+.main-header {
+  padding: .5em 0;
 }
 
-.main-header {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-	background: #3acec2;
-  margin-bottom: 30px;
+.banner,
+.main-footer {
+  text-align: center;
+}
+
+.banner {
+  color: #fff;
+  background: #3acec2;
+  padding: 3.2em 0;
+  margin: 0 0 60px 0;
+}
+
+.col {
+  padding: 0 1em;
 }
 
 .main-footer {
-  text-align: center;
 	padding: 2em 0;
 	background: #d9e4ea;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+  width: 190px;
+  border-radius: 50%;
 }
 
 /* =================================
@@ -97,36 +108,14 @@ a {
 
 @media (min-width: 769px) {
 
-  .wrap {
-    min-height: calc(100vh - 89px);
-  }
 
-  .container {
-    width: 85%;
-    max-width: 1150px;
-    margin: 0 auto;
-  }
 
-  .name {
-    float: left;
-  }
+	/* ---- Columns ---- */
 
-  .main-nav {
-    float: right;
-  }
 
-  .main-nav li {
-    float: left;
-    margin: 0 0 0 12px;
-  }
 
-  .feat-img {
-    width: 300px;
-    float: left;
-    margin: 5px 25px 25px 25px;
-    padding: 10px;
-    border: solid 1px lightgrey;
-  }
+	/* --------------------- */
+
 
   .clearfix::after {
     content: "";
