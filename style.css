@@ -62,16 +62,20 @@ img {
   font-size: .95em;
   color: #3acec2;
   text-transform: uppercase;
+  border: 1.5px solid #3acec2;
+  margin: .4em 0;
+  border-radius: 15px;
 }
 
 .main-nav a:hover {
-  color: #093a58;
+  color: #fff;
+  background: #3acec2;
 }
 
 /* ---- Layout Containers ---- */
 
 .main-header {
-  padding: .5em 0;
+  padding-top: .5em ;
 }
 
 .banner,
@@ -116,40 +120,44 @@ img {
 
 @media (min-width: 769px) {
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
 
-.name,
-.col {
-  float: left;
-}
+  .name,
+  .col {
+    float: left;
+  }
 
-.primary,
-.secondary {
-  width: 50%;
-}
+  .primary,
+  .secondary {
+    width: 50%;
+  }
 
-.main-nav {
-  float: right;
-}
+  .main-nav {
+    float: right;
+  }
 
-.main-nav li {
-  display: inline-block;
-  margin-left: 15px;
-}
+  .main-nav li {
+    display: inline-block;
+  }
 
-.tagline {
-  font-size: 1.4em;
-}
+  .main-nav a {
+    color: #3acec2;
+    text-transform: uppercase;
+    border: solid 1px #fff;
+    padding-left: 15px;
+  }
 
-	/* ---- Columns ---- */
+  .main-nav a:hover {
+    color: #fff;
+    background: #3acec2;
+  }
 
-
-
-	/* --------------------- */
-
+  .tagline {
+    font-size: 1.4em;
+  }
 
   .clearfix::after {
     content: "";
@@ -162,7 +170,7 @@ img {
 @media (min-width: 1025px) {
 
   .container {
-    width: 80%;
+    width: 90%;
     max-width: 1150px;
     text-align: center;
   }
