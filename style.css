@@ -102,6 +102,14 @@ img {
   border-radius: 50%;
 }
 
+.feat-img {
+  border-radius: 8px;
+}
+
+.headline {
+  margin-bottom: 0;
+}
+
 /* =================================
   Media Queries
 ==================================== */
