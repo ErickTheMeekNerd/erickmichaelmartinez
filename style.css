@@ -113,6 +113,7 @@ figcaption {
   padding: 3.2em 0;
   margin: 30px 0 30px 0;
   border-radius: 3px;
+  box-shadow: 0 1px 10px rgba(0,0,0,.4);
 }
 
 .col {
@@ -205,6 +206,7 @@ figcaption {
     text-transform: uppercase;
     border: solid 1px #fff;
     padding-left: 15px;
+    box-shadow: none;
   }
 
   .main-nav a:hover {
