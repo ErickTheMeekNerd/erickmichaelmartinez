@@ -88,6 +88,7 @@ figcaption {
   border: 1.3px solid #3acec2;
   margin: .4em 0;
   border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.4);
 }
 
 .main-nav a:hover {
@@ -135,6 +136,7 @@ figcaption {
   border-radius: 8px;
   width: 100%;
   height: 100%;
+  box-shadow: 0 1px 10px rgba(0,0,0,.4);
 }
 
 .headline {
@@ -142,7 +144,6 @@ figcaption {
 }
 
 .icon-location {
-
   position: absolute;
   top: -45px;
   right: -0px;
