@@ -143,8 +143,8 @@ figcaption {
 .icon-location {
   width: 85px;
   position: absolute;
-  top: -35px;
-  right: -20px;
+  top: -45px;
+  right: -0px;
 }
 
 /* =================================
@@ -206,6 +206,13 @@ figcaption {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .icon-location {
+    width: 85px;
+    position: absolute;
+    top: -45px;
+    right: -35px;
   }
 
 }
