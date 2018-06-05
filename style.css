@@ -158,7 +158,7 @@ figcaption {
 (orientation: landscape) {
 
   body {
-    padding-top: 62px;
+    padding-top: 52px;
   }
 
   .container {
@@ -187,7 +187,7 @@ figcaption {
   .name,
   .main-header,
   .main-nav a {
-    margin: 5px 0;
+    margin: 0px 0;
   }
 
   .main-header {
@@ -238,6 +238,12 @@ figcaption {
 }
 
 @media (min-width: 1025px) {
+
+  .name,
+  .main-header,
+  .main-nav a {
+    margin: 3px 0;
+  }
 
   .container {
     width: 90%;
