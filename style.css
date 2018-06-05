@@ -151,7 +151,8 @@ figcaption {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 769px),
+(orientation: landscape) {
 
   .container {
     width: 90%;
@@ -218,10 +219,23 @@ figcaption {
 
 @media (min-width: 1025px) {
 
+  body {
+    padding-top: 62px;
+  }
+
+  .main-header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    top: 0;
+    z-index: 1;
+  }
+
   .container {
     width: 90%;
     max-width: 1150px;
-
   }
 
   .banner {
