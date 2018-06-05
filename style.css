@@ -141,7 +141,7 @@ figcaption {
 }
 
 .icon-location {
-  width: 85px;
+
   position: absolute;
   top: -45px;
   right: -0px;
@@ -209,7 +209,6 @@ figcaption {
   }
 
   .icon-location {
-    width: 85px;
     position: absolute;
     top: -45px;
     right: -35px;
